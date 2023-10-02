@@ -1,0 +1,12 @@
+add_executable(test_date_construction test_date_construction.cpp)
+target_link_libraries (test_date_construction PUBLIC PHdate)
+add_test(check_date_construction test_date_construction)
+
+add_executable(test_date_operators test_date_operators.cpp)
+target_link_libraries (test_date_operators PUBLIC PHdate)
+add_test(check_date_operators test_date_operators)
+
+add_executable(test_date_in_containers test_date_in_containers.cpp)
+target_link_libraries (test_date_in_containers PUBLIC PHdate)
+add_test(check_date_in_containers test_date_in_containers)
+

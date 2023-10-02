@@ -1,0 +1,4 @@
+add_executable(test_csv_print_all test_csv_print_all.cpp)
+target_link_libraries (test_csv_print_all PUBLIC PHcsv)
+add_test(check_csv_print_all test_csv_print_all)
+
