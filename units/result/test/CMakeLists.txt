@@ -1,0 +1,2 @@
+add_executable(test_result test_result.cpp)
+add_test(test_result_all test_result)
